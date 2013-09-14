@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Revo Uninstaller</title>
+    <version>{{PackageVersion}}</version>
+    <authors>VS Revo Group</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://www.revouninstaller.com/revo_uninstaller_free_download.html</projectUrl>
+    <licenseUrl>http://www.revouninstaller.com/revo_uninstaller_free_download.html</licenseUrl>
+	<iconUrl>https://raw.github.com/jivkok/Chocolatey-AutomaticPackages/master/Revo.Uninstaller/Revo.Uninstaller.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Remove unwanted programs and traces easily.</summary>
+    <description>Remove unwanted programs and traces easily.</description>
+    <tags>uninstall programs applications</tags>
+    <dependencies>
+      <dependency id='autoit.commandline' />
+    </dependencies>
+  </metadata>
+</package>
