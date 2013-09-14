@@ -13,8 +13,5 @@
     <summary>Remove unwanted programs and traces easily.</summary>
     <description>Remove unwanted programs and traces easily.</description>
     <tags>uninstall programs applications</tags>
-    <dependencies>
-      <dependency id='autoit.commandline' />
-    </dependencies>
   </metadata>
 </package>

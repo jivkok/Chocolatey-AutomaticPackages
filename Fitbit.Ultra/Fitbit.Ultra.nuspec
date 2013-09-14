@@ -13,8 +13,5 @@
     <summary>Fitbit Ultra - uploader for your daily activity stats (steps, distance) from your Fitbit Ultra tracker</summary>
     <description>Fitbit's Uploader software uploads your Ultra Tracker's stats (steps, distance) from your base station to your personalized dashboard on Fitbit.com, so you can track your activity, log food, and much more.</description>
     <tags>fitbit ultra tracker</tags>
-    <dependencies>
-      <dependency id='autoit.commandline' />
-    </dependencies>
   </metadata>
 </package>

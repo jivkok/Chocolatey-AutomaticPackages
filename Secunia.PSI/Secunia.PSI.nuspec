@@ -16,8 +16,5 @@ The Secunia Personal Software Inspector (PSI) is a free computer security soluti
 Using a scanner like Secunia PSI 3.0 is complementary to antivirus software, and as a free computer security program, is essential for every home computer.
 </description>
     <tags>secunia psi personal software inspector security</tags>
-    <dependencies>
-      <dependency id='autoit.commandline' />
-    </dependencies>
   </metadata>
 </package>
