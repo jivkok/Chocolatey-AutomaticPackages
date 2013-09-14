@@ -16,5 +16,8 @@
 - SQL Development (replacing MySQL Query Browser)
 - Database Administration (replacing MySQL Administrator)</description>
     <tags>mysql workbench sql database query browser administrator</tags>
+    <dependencies>
+      <dependency id="vcredist2010" />
+    </dependencies>
   </metadata>
 </package>
