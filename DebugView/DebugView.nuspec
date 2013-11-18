@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>{{PackageName}}</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mark Russinovich</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://technet.microsoft.com/en-us/sysinternals/bb896647</projectUrl>
+    <iconUrl>http://i.technet.microsoft.com/ee694644.Download_sm(en-us,MSDN.10).png</iconUrl>
+    <licenseUrl>http://technet.microsoft.com/en-us/sysinternals/bb896647</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Displays both kernel-mode and Win32 debug output</summary>
+    <description>DebugView is an application that lets you monitor debug output on your local system, or any computer on the network that you can reach via TCP/IP. It is capable of displaying both kernel-mode and Win32 debug output, so you don't need a debugger to catch the debug output your applications or device drivers generate, nor do you need to modify your applications or drivers to use non-standard debug output APIs.</description>
+    <tags>debugview debug kernel debugger sysinternals</tags>
+  </metadata>
+</package>
