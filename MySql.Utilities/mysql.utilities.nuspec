@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>MySQL Utilities</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Oracle</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://dev.mysql.com/downloads/tools/utilities/</projectUrl>
+    <iconUrl>http://tomone.github.io/icons/mysql.svg</iconUrl>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>MySQL Utilities</summary>
+    <description>MySQL Utilities provides a collection of command-line utilities that are used for maintaining and administering MySQL servers, including:
+- Admin Utilities (Clone, Copy, Compare, Diff, Export, Import)
+- Replication Utilities (Setup, Configuration)
+- General Utilities (Disk Usage, Redundant Indexes, Search Meta Data)
+</description>
+    <tags>mysql utils utilities sql database index admin</tags>
+  </metadata>
+</package>
