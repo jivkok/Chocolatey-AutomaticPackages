@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Fitbit Connect</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Fitbit.com</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://www.fitbit.com</projectUrl>
+    <licenseUrl>http://www.fitbit.com</licenseUrl>
+    <iconUrl>https://raw.github.com/jivkok/Chocolatey-AutomaticPackages/master/Fitbit.Connect/Fitbit.Connect.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Free software to link your device to Fitbit. Once you've set up, you can sync your data</summary>
+    <description>Uploads your stats (steps, distance) from your Fitbit device to your personalized dashboard on Fitbit.com, so you can track your activity, log food, and much more. Supported devices: Force, Flex, One, and Zip.</description>
+    <tags>fitbit tracker force flex one zip</tags>
+  </metadata>
+</package>
