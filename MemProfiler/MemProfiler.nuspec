@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>{{PackageVersion}}</version>
+    <authors>SciTech</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://memprofiler.com/</projectUrl>
+    <licenseUrl>http://memprofiler.com/</licenseUrl>
+    <id>{{PackageName}}</id>
+    <title>{{PackageName}}</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET Memory Profiler is a powerful tool for finding memory leaks and optimizing the memory usage in programs written in C#, VB.NET or any other .NET Language. With the help of the profiling guides, the automatic memory analyzer, and specialized trackers, you can make sure that your program has no memory or resource leaks, and that the memory usage is as optimal as possible.</description>
+    <tags>dotnet memory profiler</tags>
+  </metadata>
+</package>
