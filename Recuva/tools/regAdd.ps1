@@ -1,4 +1,4 @@
-﻿# This adds a registry key which prevents Google Chrome from getting installed together with Speccy
+﻿# This adds a registry key which prevents Google Chrome from getting installed together with Piriform software products
 
 $processor = Get-WmiObject Win32_Processor
 $is64bit = $processor.AddressWidth -eq 64
