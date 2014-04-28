@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>CloudBerry Explorer for Google Storage</title>
+    <version>{{PackageVersion}}</version>
+    <authors>CloudBerry</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://www.cloudberrylab.com/free-google-storage-explorer.aspx</projectUrl>
+    <iconUrl>http://www.cloudberrylab.com/images/producticons/aws_exp.png</iconUrl>
+    <licenseUrl>http://www.cloudberrylab.com/free-google-storage-explorer.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>CloudBerry Explorer for Google Storage</summary>
+    <description>File manager that provides a user interface to Google Storage accounts. Google Cloud Storage client allows browsing your Google Storage account, creating, and deleting files. Google Cloud Storage manager by CloudBerry comes in two versions – Freeware and PRO. CloudBerry Explorer for Google Storage Freeware comes with a full support for Google Groups. It allows sharing Google Storage content with other users or group of users. Also Google Cloud Storage client allows accessing and managing files and folders in Google Drive account, which that way could be used as file storage.
+    </description>
+    <tags>cloudberry cloud storage explorer google</tags>
+    <dependencies>
+      <dependency id='autoit.commandline' />
+    </dependencies>
+  </metadata>
+</package>
