@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>CloudBerry Explorer for Microsoft Azure Cloud Storage</title>
+    <version>{{PackageVersion}}</version>
+    <authors>CloudBerry</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://www.cloudberrylab.com/free-microsoft-azure-explorer.aspx</projectUrl>
+    <iconUrl>http://www.cloudberrylab.com/images/producticons/aws_exp.png</iconUrl>
+    <licenseUrl>http://www.cloudberrylab.com/free-microsoft-azure-explorer.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>CloudBerry Explorer for Microsoft Azure Cloud Storage</summary>
+    <description>File manager for Microsoft Azure. Azure Blob Storage Explorer is a powerful tool for Azure Cloud management. With Explorer for Azure Blob Storage you can browse your Azure accounts, create, and delete files. CloudBerry Microsoft Azure Storage client comes in two versions – Freeware and PRO. Comes with full support for Microsoft Azure Storage Analytics. CloudBerry Azure Blob Storage Explorer allows tracking, analyzing and debugging your usage of storage to improve the design of your applications and their access patterns to Microsoft Azure Storage.
+    </description>
+    <tags>cloudberry cloud storage explorer microsoft azure</tags>
+    <dependencies>
+      <dependency id='autoit.commandline' />
+    </dependencies>
+  </metadata>
+</package>
