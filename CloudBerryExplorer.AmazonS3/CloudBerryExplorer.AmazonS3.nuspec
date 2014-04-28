@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>CloudBerry Explorer for Amazon S3</title>
+    <version>{{PackageVersion}}</version>
+    <authors>CloudBerry</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://www.cloudberrylab.com/free-amazon-s3-explorer-cloudfront-IAM.aspx</projectUrl>
+    <iconUrl>http://www.cloudberrylab.com/images/producticons/aws_exp.png</iconUrl>
+    <licenseUrl>http://www.cloudberrylab.com/free-amazon-s3-explorer-cloudfront-IAM.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>CloudBerry Explorer for Amazon S3</summary>
+    <description>Provides user interface to Amazon S3 and Amazon Glacier accounts allowing accessing, moving and managing files, buckets and vaults across your local and cloud storage. Includes a set of tools to manage CloudFront HTTP and Streaming Distributions, Public and Private content.
+    </description>
+    <tags>cloudberry cloud storage explorer amazon S3 aws</tags>
+    <dependencies>
+      <dependency id='autoit.commandline' />
+    </dependencies>
+  </metadata>
+</package>
