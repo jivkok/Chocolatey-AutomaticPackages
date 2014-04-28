@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>CloudBerry Explorer for OpenStack Cloud Storage</title>
+    <version>{{PackageVersion}}</version>
+    <authors>CloudBerry</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://www.cloudberrylab.com/free-openstack-storage-explorer.aspx</projectUrl>
+    <iconUrl>http://www.cloudberrylab.com/images/producticons/aws_exp.png</iconUrl>
+    <licenseUrl>http://www.cloudberrylab.com/free-openstack-storage-explorer.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>CloudBerry Explorer for OpenStack Cloud Storage</summary>
+    <description>File manager for Openstack that provides a user interface to OpenStack Swift accounts and files. Allows managing files on OpenStack Swift storage the same way you do on your local computer. Cloud storage manager comes in two versions – Freeware and PRO.
+    </description>
+    <tags>cloudberry cloud storage explorer openstack</tags>
+    <dependencies>
+      <dependency id='autoit.commandline' />
+    </dependencies>
+  </metadata>
+</package>
