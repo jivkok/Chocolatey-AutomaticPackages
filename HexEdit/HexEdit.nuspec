@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>{{PackageName}}</title>
+    <version>{{PackageVersion}}</version>
+    <authors>James Brown</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://www.catch22.net/software/hexedit</projectUrl>
+    <licenseUrl>http://www.catch22.net/software/hexedit</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Hexadecimal file editor</summary>
+    <description>Hexadecimal file editor for Microsoft Windows. HexEdit allows the user to view and edit any type of file, no matter what format it is saved in. With a maximum file size limit of 16Exabytes (17,179,869,184 gigabytes!!), HexEdit can cut, copy, paste, insert and delete any amount of data with no decrease in performance with larger files. With unlimited multi-level undo and redo capability, no matter how large the file, HexEdit brings a new level of control over file editing.</description>
+    <tags>hex editor</tags>
+  </metadata>
+</package>
