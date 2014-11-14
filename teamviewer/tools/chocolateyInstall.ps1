@@ -1,7 +1,8 @@
+# http://download.teamviewer.com/download/TeamViewer_Setup.exe
 $packageName = '{{PackageName}}'
-$fileType = 'exe'
+$installerType = 'exe'
+$32BitUrl  = '{{DownloadUrl}}'
 $silentArgs = '/S'
-#$url = 'http://download.teamviewer.com/download/TeamViewer_Setup.exe'
-$url = '{{DownloadUrl}}'
+$validExitCodes = @(0)
 
-Install-ChocolateyPackage $packageName $fileType $silentArgs $url
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$32BitUrl" -validExitCodes $validExitCodes
