@@ -7,11 +7,11 @@
     <authors>Fitbit.com</authors>
     <owners>Jivko Kolev</owners>
     <projectUrl>http://www.fitbit.com</projectUrl>
-    <licenseUrl>http://www.fitbit.com</licenseUrl>
+    <licenseUrl>http://www.fitbit.com/terms</licenseUrl>
     <iconUrl>https://raw.github.com/jivkok/Chocolatey-AutomaticPackages/master/Fitbit.Connect/Fitbit.Connect.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Free software to link your device to Fitbit. Once you've set up, you can sync your data</summary>
     <description>Uploads your stats (steps, distance) from your Fitbit device to your personalized dashboard on Fitbit.com, so you can track your activity, log food, and much more. Supported devices: Force, Flex, One, and Zip.</description>
-    <tags>fitbit tracker force flex one zip</tags>
+    <tags>fitbit tracker force flex one zip notSilent</tags>
   </metadata>
 </package>
