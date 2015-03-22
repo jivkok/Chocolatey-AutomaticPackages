@@ -17,7 +17,7 @@
 - Database Administration (replacing MySQL Administrator)</description>
     <tags>mysql workbench sql database query browser administrator</tags>
     <dependencies>
-      <dependency id="vcredist2010" />
+      <dependency id="vcredist2013" />
     </dependencies>
   </metadata>
 </package>
