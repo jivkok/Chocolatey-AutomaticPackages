@@ -1,7 +1,7 @@
 ﻿$packageName = '{{PackageName}}'
 $installerType = 'exe'
-$32BitUrl  = '{{DownloadUrl}}'
+$url  = '{{DownloadUrl}}'
 $silentArgs = '/passive'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$32BitUrl" -validExitCodes $validExitCodes
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url" -validExitCodes $validExitCodes
