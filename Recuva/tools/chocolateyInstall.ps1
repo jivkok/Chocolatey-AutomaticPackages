@@ -13,9 +13,7 @@ try {
     Start-ChocolateyProcessAsAdmin "& `'$regAdd`'"
 
     Install-ChocolateyPackage $packageName $fileType $silentArgs $url
-
-    Write-ChocolateySuccess "$packageName"
 } catch {
     Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-    throw 
+    throw
 }

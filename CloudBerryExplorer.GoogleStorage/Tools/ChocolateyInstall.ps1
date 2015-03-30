@@ -12,8 +12,6 @@ try {
     Write-Host "Installing `'$installerPackage`' with AutoIt3 using `'$installerAuto`'"
     $installArgs = "/c autoit3 `"$installerAuto`" `"$installerPackage`""
     Start-ChocolateyProcessAsAdmin "$installArgs" "cmd.exe"
-
-    Write-ChocolateySuccess $packageName
 } catch {
   Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
   throw

@@ -8,7 +8,6 @@ try {
   $msiArgs = "/X{99FFF1B0-FE8A-43FE-9E1C-3293ADF7083D} /qb-! REBOOT=ReallySuppress"
   Start-ChocolateyProcessAsAdmin "$msiArgs" 'msiexec'
 
-  Write-ChocolateySuccess $package
 } catch {
   Write-ChocolateyFailure $package "$($_.Exception.Message)"
   throw
