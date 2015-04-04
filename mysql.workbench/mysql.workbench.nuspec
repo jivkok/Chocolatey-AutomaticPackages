@@ -12,6 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>MySQL Workbench (GUI Tool)</summary>
     <description>MySQL Workbench provides DBAs and developers an integrated tools environment for:
+
 - Database Design and Modeling
 - SQL Development (replacing MySQL Query Browser)
 - Database Administration (replacing MySQL Administrator)</description>
