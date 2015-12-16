@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Geek Uninstaller</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Thomas Koen</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://www.geekuninstaller.com</projectUrl>
+    <summary>Efficient Uninstaller</summary>
+    <description># Features:
+
+## Clean Removal, Force Removal
+Standard removal program leaves tons of leftovers on your PC. GeekUninstaller performs deep and fast scanning afterwards and removes all leftovers. Keep your PC clean! Use Force Removal for stubborn and broken programs.
+
+## Ultra fast
+Instant startup, minimalistic, simple but efficient user interface.
+
+## Native X64 support
+Single EXE runs flawlessly on both 32 and 64-bit Windows 10/8/7/Vista/XP. When running on x64 Windows GeekUninstaller is running as a native 64-bit application.
+</description>
+    <tags>Windows geek uninstaller</tags>
+  </metadata>
+</package>
