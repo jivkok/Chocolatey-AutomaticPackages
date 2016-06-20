@@ -7,11 +7,13 @@
     <authors>Atlassian</authors>
     <owners>Jivko Kolev</owners>
     <projectUrl>http://www.sourcetreeapp.com</projectUrl>
-    <iconUrl>https://raw.github.com/jivkok/Chocolatey-AutomaticPackages/master/SourceTree/SourceTree.png</iconUrl>
-    <licenseUrl>http://www.sourcetreeapp.com</licenseUrl>
+    <iconUrl>https://cdn.rawgit.com/jivkok/Chocolatey-AutomaticPackages/master/SourceTree/SourceTree.png</iconUrl>
+    <licenseUrl>https://www.atlassian.com/end-user-agreement/</licenseUrl>
+    <packageSourceUrl>https://github.com/jivkok/Chocolatey-AutomaticPackages</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Git client for Windows or Mac</summary>
     <description>Say goodbye to the command line – use the full capability of Git and Mercurial in the SourceTree desktop app. Manage all your repositories, hosted or local, through SourceTree's simple interface.</description>
-    <tags>Git client</tags>
+    <releaseNotes>https://www.sourcetreeapp.com/update/WindowsReleaseNotes.html</releaseNotes>
+    <tags>Git client admin</tags>
   </metadata>
 </package>
