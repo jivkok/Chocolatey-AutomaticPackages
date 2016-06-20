@@ -10,7 +10,22 @@
     <id>{{PackageName}}</id>
     <title>TeamViewer</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Remote control any computer or Mac over the internet within seconds or use TeamViewer for online meetings. Free for private use. Commercial users are welcome to use for trial purposes.</description>
+    <description>## Description
+Remote control any computer or Mac over the internet within seconds or use TeamViewer for online meetings. Free for private use. Commercial users are welcome to use for trial purposes.
+
+### Installing specific major version
+Scroll through the **Version History** and find the latest available package for the required major version. Click on it to see the versioned command needed to install the specific package. Example:
+```
+choco install teamviewer -version xx.xx.xx
+```
+
+### Suppressing upgrades past specific versions
+You can pin a package to suppress upgrading past specific versions - useful when you have purchased a license for version X and do not want to upgrade past it when you are bulk-upgrading your Chocolatey packages. Find the specific version you need and pin it to skip future upgrades:
+
+```
+choco pin add -n=teamviewer --version xx.xx.xx
+```
+</description>
     <summary>TeamViewer – the All-In-One Software for Remote Support and Online Meetings</summary>
     <tags>teamviewer team viewer remote control support online meeting</tags>
   </metadata>
