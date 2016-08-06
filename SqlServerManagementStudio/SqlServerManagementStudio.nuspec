@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Sql Server Management Studio</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Microsoft</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>https://msdn.microsoft.com/en-us/library/ms174173.aspx</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/jivkok/Chocolatey-AutomaticPackages/master/SqlServerManagementStudio/sql-server-icon.png</iconUrl>
+    <licenseUrl>https://msdn.microsoft.com/en-us/cc300389</licenseUrl>
+    <packageSourceUrl>https://github.com/jivkok/Chocolatey-AutomaticPackages</packageSourceUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Sql Server Management Studio</summary>
+    <description>SQL Server Management Studio (SSMS) is an integrated environment for accessing, configuring, managing, administering, and developing all components of SQL Server and Azure SQL Database. SSMS combines a broad group of graphical tools with a number of rich script editors to provide access to SQL Server to developers and administrators of all skill levels.
+
+SSMS combines the features of Enterprise Manager, Query Analyzer, and Analysis Manager, included in previous releases of SQL Server, into a single environment. In addition, SSMS works with all components of SQL Server such as Reporting Services and Integration Services. Developers get a familiar experience, and database administrators get a single comprehensive utility that combines easy-to-use graphical tools with rich scripting capabilities.
+    </description>
+    <releaseNotes>https://msdn.microsoft.com/en-us/library/mt588477.aspx</releaseNotes>
+    <tags>sql server management studio database ssms query analyzer</tags>
+  </metadata>
+</package>
