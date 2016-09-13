@@ -6,12 +6,19 @@
     <version>{{PackageVersion}}</version>
     <authors>Mark Russinovich</authors>
     <owners>Jivko Kolev</owners>
-    <projectUrl>http://technet.microsoft.com/en-us/sysinternals/bb896655</projectUrl>
-    <iconUrl>http://i.technet.microsoft.com/ee694644.Download_sm(en-us,MSDN.10).png</iconUrl>
-    <licenseUrl>http://technet.microsoft.com/en-us/sysinternals/bb896655</licenseUrl>
+    <projectUrl>https://technet.microsoft.com/en-us/sysinternals/bb896655</projectUrl>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Displays information about open handles for any process in the system</summary>
     <description>Ever wondered which program has a particular file or directory open? Now you can find out. Handle is a utility that displays information about open handles for any process in the system. You can use it to see the programs that have a file open, or to see the object types and names of all the handles of a program.</description>
-    <tags>handle sysinternals</tags>
+    <releaseNotes>#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built
+* Security: added checksum verification
+* Security: download from HTTPS
+* Automation: accept license agreement</releaseNotes>
+    <tags>handle file lock sysinternals</tags>
   </metadata>
 </package>

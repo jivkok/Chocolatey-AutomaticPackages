@@ -1,13 +1,27 @@
+$ErrorActionPreference = 'Stop';
+
 $packageName = '{{PackageName}}'
-#$url = 'http://www.cloudberrylab.com/download/CloudBerryExplorerSetup_v3.8.7.14_netv4.0.exe'
-$url = '{{DownloadUrl}}'
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = '{{DownloadUrl}}'
+$url64      = '{{DownloadUrlx64}}'
 
-$scriptDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition);
-$installerAuto = Join-Path $scriptDir 'CloudBerryExplorer.AmazonS3.au3';
+$installerPackage = Join-Path $toolsDir "CloudBerryExplorer.AmazonS3.exe";
 
-$installerPackage = Join-Path $scriptDir "CloudBerryExplorer.AmazonS3.exe";
-Get-ChocolateyWebFile $packageName $installerPackage $url;
+$packageArgs = @{
+  packageName   = $packageName
+  fileFullPath  = $installerPackage
+  url           = $url
+  url64bit      = $url64
 
-Write-Host "Installing `'$installerPackage`' with AutoIt3 using `'$installerAuto`'"
+  checksum      = '{{Checksum}}'
+  checksumType  = 'sha256'
+  checksum64    = '{{Checksumx64}}'
+  checksumType64= 'sha256'
+}
+
+Get-ChocolateyWebFile @packageArgs
+
+$installerAuto = Join-Path $toolsDir 'CloudBerryExplorer.AmazonS3.au3';
 $installArgs = "/c autoit3 `"$installerAuto`" `"$installerPackage`""
+Write-Host "Installing `'$installerPackage`' with AutoIt3 using `'$installerAuto`'"
 Start-ChocolateyProcessAsAdmin "$installArgs" "cmd.exe"

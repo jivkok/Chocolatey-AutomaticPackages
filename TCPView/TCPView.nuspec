@@ -6,12 +6,18 @@
     <version>{{PackageVersion}}</version>
     <authors>Mark Russinovich</authors>
     <owners>Jivko Kolev</owners>
-    <projectUrl>http://technet.microsoft.com/en-us/sysinternals/bb897437</projectUrl>
-    <iconUrl>http://i.technet.microsoft.com/ee694644.Download_sm(en-us,MSDN.10).png</iconUrl>
-    <licenseUrl>http://technet.microsoft.com/en-us/sysinternals/bb897437</licenseUrl>
+    <projectUrl>https://technet.microsoft.com/en-us/sysinternals/bb897437</projectUrl>
+    <licenseUrl>https://technet.microsoft.com/sysinternals/bb469936</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Shows detailed listings of all TCP and UDP endpoints on your system</summary>
     <description>TCPView is a Windows program that will show you detailed listings of all TCP and UDP endpoints on your system, including the local and remote addresses and state of TCP connections. On Windows Server 2008, Vista, and XP, TCPView also reports the name of the process that owns the endpoint. TCPView provides a more informative and conveniently presented subset of the Netstat program that ships with Windows. The TCPView download includes Tcpvcon, a command-line version with the same functionality.</description>
+    <releaseNotes>#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built
+* Security: added checksum verification
+* Automation: accept license agreement</releaseNotes>
     <tags>tcpview sysinternals tcp udp netstat</tags>
   </metadata>
 </package>

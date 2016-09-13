@@ -1,6 +1,20 @@
-$packageName = '{{PackageName}}'
-#$url = 'http://download.microsoft.com/download/5/C/C/5CCCFF9B-08C4-4352-9DBF-DF44E3A2E9EA/PerfView.zip'
-$url = '{{DownloadUrl}}'
-$drop = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$ErrorActionPreference = 'Stop';
 
-Install-ChocolateyZipPackage $packageName $url $drop
+$packageName = '{{PackageName}}'
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = '{{DownloadUrl}}'
+$url64      = '{{DownloadUrlx64}}'
+
+$packageArgs = @{
+  packageName   = $packageName
+  unzipLocation = $toolsDir
+  url           = $url
+  url64bit      = $url64
+
+  checksum      = '{{Checksum}}'
+  checksumType  = 'sha256'
+  checksum64    = '{{Checksumx64}}'
+  checksumType64= 'sha256'
+}
+
+Install-ChocolateyZipPackage @packageArgs

@@ -1,6 +1,23 @@
-$package = '{{PackageName}}';
+$ErrorActionPreference = 'Stop';
 
-$scriptDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition);
+$packageName = '{{PackageName}}'
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = '{{DownloadUrl}}'
+$url64      = '{{DownloadUrlx64}}'
 
-$installerPackage = Join-Path $scriptDir "sfk.exe";
-Get-ChocolateyWebFile $package $installerPackage 'http://sourceforge.net/projects/swissfileknife/files/1-swissfileknife/{{PackageVersion}}/sfk{{DownloadUrlx64}}.exe/download';
+$installerPackage = Join-Path $toolsDir "sfk.exe";
+
+$packageArgs = @{
+  packageName   = $packageName
+  fileFullPath  = $installerPackage
+  url           = $url
+  url64bit      = $url64
+
+  checksum      = '{{Checksum}}'
+  checksumType  = 'sha256'
+  checksum64    = '{{Checksumx64}}'
+  checksumType64= 'sha256'
+}
+
+Get-ChocolateyWebFile @packageArgs
+http://sourceforge.net/projects/swissfileknife/files/1-swissfileknife/{{PackageVersion}}/sfk{{DownloadUrlx64}}.exe/download

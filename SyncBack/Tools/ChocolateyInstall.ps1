@@ -1,13 +1,27 @@
+$ErrorActionPreference = 'Stop';
+
 $packageName = '{{PackageName}}'
-# $url = 'http://www.2brightsparks.com/assets/software/SyncBack_Setup.exe'
-$url = '{{DownloadUrl}}'
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = '{{DownloadUrl}}'
+$url64      = '{{DownloadUrlx64}}'
 
-$scriptDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition);
-$installerAuto = Join-Path $scriptDir 'SyncBack.au3';
+$installerPackage = Join-Path $toolsDir "SyncBack_Setup.exe";
 
-$installerPackage = Join-Path $scriptDir "SyncBack_Setup.exe";
-Get-ChocolateyWebFile $packageName $installerPackage $url;
+$packageArgs = @{
+  packageName   = $packageName
+  fileFullPath  = $installerPackage
+  url           = $url
+  url64bit      = $url64
 
-Write-Host "Installing `'$installerPackage`' with AutoIt3 using `'$installerAuto`'"
+  checksum      = '{{Checksum}}'
+  checksumType  = 'sha256'
+  checksum64    = '{{Checksumx64}}'
+  checksumType64= 'sha256'
+}
+
+Get-ChocolateyWebFile @packageArgs
+
+$installerAuto = Join-Path $toolsDir 'SyncBack.au3';
 $installArgs = "/c autoit3 `"$installerAuto`" `"$installerPackage`""
+Write-Host "Installing `'$installerPackage`' with AutoIt3 using `'$installerAuto`'"
 Start-ChocolateyProcessAsAdmin "$installArgs" "cmd.exe"

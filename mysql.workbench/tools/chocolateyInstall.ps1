@@ -1,8 +1,26 @@
-﻿$packageName = '{{PackageName}}'
-$installerType = 'msi'
-$32BitUrl = '{{DownloadUrl}}'
-$64BitUrl = $32BitUrl -replace '-win32', '-winx64'
-$silentArgs = '/passive'
-$validExitCodes = @(0)
+﻿$ErrorActionPreference = 'Stop';
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$32BitUrl" "$64BitUrl" -validExitCodes $validExitCodes
+$packageName = '{{PackageName}}'
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = '{{DownloadUrl}}'
+$url64      = '{{DownloadUrlx64}}'
+
+$packageArgs = @{
+  packageName   = $packageName
+  unzipLocation = $toolsDir
+  fileType      = 'MSI'
+  url           = $url
+  url64bit      = $url64
+
+  softwareName  = '{{PackageName}}*'
+
+  checksum      = '{{Checksum}}'
+  checksumType  = 'sha256'
+  checksum64    = '{{Checksumx64}}'
+  checksumType64= 'sha256'
+
+  silentArgs    = "/passive /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
+  validExitCodes= @(0, 3010, 1641)
+}
+
+Install-ChocolateyPackage @packageArgs
