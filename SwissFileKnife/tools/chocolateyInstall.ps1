@@ -20,4 +20,3 @@ $packageArgs = @{
 }
 
 Get-ChocolateyWebFile @packageArgs
-http://sourceforge.net/projects/swissfileknife/files/1-swissfileknife/{{PackageVersion}}/sfk{{DownloadUrlx64}}.exe/download
