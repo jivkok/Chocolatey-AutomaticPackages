@@ -1,5 +1,9 @@
 $ErrorActionPreference = 'Stop';
 
+if ((Get-WmiObject -class Win32_OperatingSystem).ProductType -ne 1) {
+  throw "SyncBackFree cannot be used on server versions of Windows. Upgrade to SyncBackSE or SyncBackPro if you are using a server version of Windows."
+}
+
 $packageName = '{{PackageName}}'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = '{{DownloadUrl}}'

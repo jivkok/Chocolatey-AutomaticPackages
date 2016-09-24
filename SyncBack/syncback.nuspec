@@ -12,6 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Backup and synchronize your files</summary>
     <description>Freeware program that helps you easily backup and synchronize your files to: the same drive; a different drive or medium (CDRW, CompactFlash, etc); an FTP server; a Network; or a Zip archive.
+**Note:** SyncBackFree cannot be used on server versions of Windows. Upgrade to SyncBackSE or SyncBackPro if you are using a server version of Windows.
     </description>
     <tags>syncback backup sync synchronize files</tags>
     <dependencies>
