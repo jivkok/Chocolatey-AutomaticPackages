@@ -7,6 +7,8 @@
     <authors>Sven Taute</authors>
     <owners>Jivko Kolev</owners>
     <projectUrl>https://sift-tool.org</projectUrl>
+    <projectSourceUrl>https://github.com/svent/sift</projectSourceUrl>
+    <licenseUrl>https://github.com/svent/sift/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Sift - grep on steroids</summary>
     <description># Feautures
@@ -41,6 +43,7 @@ You may specify various conditions and only get matches.
 - if the file contains D in the first Y lines
 - any combination of the available conditions
 </description>
+    <releaseNotes>https://github.com/svent/sift/releases</releaseNotes>
     <tags>search text regex grep ag</tags>
   </metadata>
 </package>

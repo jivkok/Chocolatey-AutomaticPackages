@@ -18,5 +18,8 @@ SSMS combines the features of Enterprise Manager, Query Analyzer, and Analysis M
     </description>
     <releaseNotes>https://msdn.microsoft.com/en-us/library/mt588477.aspx</releaseNotes>
     <tags>sql server management studio database ssms query analyzer</tags>
+    <dependencies>
+      <dependency id='KB2919355' />
+    </dependencies>
   </metadata>
 </package>
