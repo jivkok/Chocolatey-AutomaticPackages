@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>{{PackageName}}</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Leon Bambrick</authors>
+    <owners>Leon Bambrick, Jivko Kolev</owners>
+    <projectUrl>http://www.nimbletext.com</projectUrl>
+    <iconUrl>https://raw.github.com/jivkok/Chocolatey-AutomaticPackages/master/NimbleText/nimbletext.png</iconUrl>
+    <licenseUrl>http://www.nimbletext.com/Home/Eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Powerful tool that makes it easy to manipulate text and data with patterns</summary>
+    <description>NimbleText removes the hard work from repetitive writing and repetitive editing. It takes the drudgery out of repetitive data manipulation and puts you in control of the text you are manipulating.</description>
+    <releaseNotes>http://www.nimbletext.com/version/notes</releaseNotes>
+    <tags>tool text data sed csv code generator .net</tags>
+  </metadata>
+</package>
