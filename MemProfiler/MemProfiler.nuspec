@@ -5,11 +5,15 @@
     <authors>SciTech</authors>
     <owners>Jivko Kolev</owners>
     <projectUrl>http://memprofiler.com/</projectUrl>
-    <licenseUrl>http://memprofiler.com/</licenseUrl>
+    <iconUrl>https://raw.github.com/jivkok/Chocolatey-AutomaticPackages/master/MemProfiler/memoryprofilerlogo.png</iconUrl>
+    <licenseUrl>http://memprofiler.com/eula.aspx</licenseUrl>
     <id>{{PackageName}}</id>
     <title>{{PackageName}}</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>.NET Memory Profiler is a powerful tool for finding memory leaks and optimizing the memory usage in programs written in C#, VB.NET or any other .NET Language. With the help of the profiling guides, the automatic memory analyzer, and specialized trackers, you can make sure that your program has no memory or resource leaks, and that the memory usage is as optimal as possible.</description>
-    <tags>dotnet memory profiler</tags>
+    <mailingListUrl>http://forum.memprofiler.com/</mailingListUrl>
+    <docsUrl>http://memprofiler.com/OnlineDocs/</docsUrl>
+    <releaseNotes>http://memprofiler.com/releasenotes.aspx</releaseNotes>
+    <tags>dotnet memory profiler admin trial</tags>
   </metadata>
 </package>
