@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>{{PackageName}}</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Flemming Varmer</authors>
+    <owners>Jivko Kolev</owners>
+    <projectUrl>http://abc-deploy.com/abc-update/</projectUrl>
+    <iconUrl>https://raw.github.com/jivkok/Chocolatey-AutomaticPackages/master/ABC-Update/abcupdate.png</iconUrl>
+    <licenseUrl>http://abc-deploy.com/files/abc-update%20EULA.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Command-line tool that helps you control the Microsoft Update operations</summary>
+    <description>Command-line tool that helps you control the Microsoft Update operations.
+
+#### Features:
+- install updates on demand
+- define max number of reboots
+- use filtering options to select updates based on patch dates, KB Articles, and update categories.</description>
+    <releaseNotes>http://abc-deploy.com/abc-update/History</releaseNotes>
+    <tags>Windows update cmdline</tags>
+  </metadata>
+</package>
