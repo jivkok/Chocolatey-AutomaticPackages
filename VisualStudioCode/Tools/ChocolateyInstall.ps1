@@ -111,7 +111,7 @@ $packageArgs = @{
   checksum64    = '{{Checksumx64}}'
   checksumType64= 'sha256'
 
-  silentArgs    = "/silent /mergetasks=$mergeTasks /log=""$env:temp\vscode.log"""
+  silentArgs    = "/verysilent /suppressmsgboxes /mergetasks=$mergeTasks /log=""$env:temp\vscode.log"""
   validExitCodes= @(0, 3010, 1641)
 }
 
