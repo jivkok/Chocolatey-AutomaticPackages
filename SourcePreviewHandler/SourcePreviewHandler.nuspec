@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>{{PackageName}}</title>
+    <title>Source Preview Handler</title>
     <version>{{PackageVersion}}</version>
     <authors>SmartFTP</authors>
     <owners>Jivko Kolev</owners>
@@ -54,6 +54,6 @@ The latest version supports the following file formats:
 - VBScript (.vbs)
 - XML (.xml, .xsd, .xsml, xsl, .kml)</description>
     <releaseNotes>https://www.smartftp.com/changelog/3</releaseNotes>
-    <tags>source preview color code windows explorer preview pane</tags>
+    <tags>source preview color code windows explorer preview pane admin</tags>
   </metadata>
 </package>

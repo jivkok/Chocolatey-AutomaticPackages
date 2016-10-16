@@ -1,4 +1,5 @@
 _output/
+*.bak
 
 # Windows Explorer thumbnails
 Thumbs.db

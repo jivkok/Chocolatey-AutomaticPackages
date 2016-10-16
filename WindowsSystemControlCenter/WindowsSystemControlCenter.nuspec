@@ -7,8 +7,11 @@
     <authors>KirySoft</authors>
     <owners>Jivko Kolev</owners>
     <projectUrl>http://kls-soft.com/wscc/</projectUrl>
-    <summary>Install, update, execute and organize the utilities from various system utility suites</summary>
-    <description>Install, update, execute and organize the utilities from various system utility suites.
+    <licenseUrl>http://kls-soft.com/main/legal.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Install, update, execute, and organize the utilities from various system utility suites</summary>
+    <description>Install, update, execute, and organize the utilities from various system utility suites.
+
 This edition of WSCC supports the following utility suites:
 
 - Windows Sysinternals Suite (including support for Sysinternals Live service)
@@ -16,6 +19,7 @@ This edition of WSCC supports the following utility suites:
 
 The setup packages are downloaded from the author's website.
 </description>
+    <releaseNotes>http://kls-soft.com/wscc/history.php</releaseNotes>
     <tags>system utility utilities</tags>
   </metadata>
 </package>
