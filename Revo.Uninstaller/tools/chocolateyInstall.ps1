@@ -19,7 +19,7 @@ $packageArgs = @{
   checksum64    = '{{Checksumx64}}'
   checksumType64= 'sha256'
 
-  silentArgs    = "/S"
+  silentArgs    = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-" # Inno Setup Package
   validExitCodes= @(0, 3010, 1641)
 }
 
