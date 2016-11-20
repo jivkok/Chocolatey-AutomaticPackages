@@ -11,17 +11,17 @@
     <licenseUrl>https://github.com/svent/sift/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Sift - grep on steroids</summary>
-    <description># Feautures
+    <description>### Features
 
-## It's fast. really fast.
+#### It's fast. really fast.
 Some grep alternatives try to be fast by not searching everywhere. sift was developed with performance in mind and just is fast.
 Take a look at the benchmarks for details.
 
-## No installation
+#### No installation
 sift comes as a single executable with no dependencies and is available for all major platforms (Linux, Windows, OS X, BSD)
 Need to use sift on a remote server? Just copy it over and it will work - no problems due to missing packages.
 
-## Flexiblity. all the features you expect from a modern grep alternative.
+#### Flexiblity. all the features you expect from a modern grep alternative.
 
 - RegEx - perl compatible regular expression syntax (no more escape hell)
 - usable defaults - basic options known from grep but with usable defaults
@@ -30,10 +30,10 @@ Need to use sift on a remote server? Just copy it over and it will work - no pro
 - gzip files - search through normal and gzip'ed files in one program call
 - multiple patterns - search for multiple patterns in one run
 - target selection - select or exclude search targets based on file name, directory name, path and type
-- handling big data - sift handles big files without problems: files >50GB, >5,000,000,000 lines and >5,000,000,000 matches successfully tested
+- handling big data - sift handles big files without problems: files greater than 50GB, 5,000,000,000 lines, and 5,000,000,000 matches successfully tested
 - customizable - optional global and local configuration file to specify your own preferences
 
-## Use Conditions
+#### Use Conditions
 Doing code audits? Need to extract data from complex formats?
 sift will make this much easier.
 You may specify various conditions and only get matches.
