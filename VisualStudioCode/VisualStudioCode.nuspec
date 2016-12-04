@@ -35,7 +35,7 @@ For example: `-params '"/NoDesktopIcon /DontAddToPath"'`.
     </description>
     <tags>Microsoft VisualStudioCode vscode editor ide javascript typescript admin</tags>
     <dependencies>
-      <dependency id="DotNet4.5.1" />
+      <dependency id="DotNet4.5.2" />
     </dependencies>
     <releaseNotes>
         https://code.visualstudio.com/Updates
