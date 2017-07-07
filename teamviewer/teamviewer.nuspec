@@ -26,6 +26,6 @@ You can pin a package to suppress upgrading past specific versions - useful when
 ```
 choco pin add -n=teamviewer --version xx.xx.xx
 ```</description>
-    <tags>teamviewer team viewer remote control support online meeting</tags>
+    <tags>teamviewer team viewer remote control support online meeting admin</tags>
   </metadata>
 </package>
